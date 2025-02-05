@@ -1,0 +1,42 @@
+/* @import url(https://fonts.google.com/specimen/Outfit); */
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+:root{
+    --bg1: hsl(212, 45%, 89%);
+    --bg2: hsl(0, 0%, 100%);
+}
+body{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--bg1);
+}
+#card{
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px 3px rgba(0, 0, 0, 0.1);
+    background-color: var(--bg2);
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+h3{
+    font-size: 14px;
+    padding: 5px;
+}
+p{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
